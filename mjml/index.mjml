@@ -13,10 +13,10 @@
     <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins"/>
     <mj-breakpoint width="480px"/>
   </mj-head>
-  <mj-body>     
-    <mj-section padding="0px">
+  <mj-body background-color="#ededed">   
+    <mj-section padding="0px" background-color="#ffffff">
       <mj-column vertical-align="middle" width="200px" padding="0">
-        <mj-image href="https://www.emailonacid.com" width="200px" padding="0px 10px" src="https://www.emailonacid.com/wp-content/themes/eoa/images/emailonacid-logo-small.png" align="center"/>
+        <mj-image href="https://www.emailonacid.com" width="200px" padding="10px" src="https://www.emailonacid.com/wp-content/themes/eoa/images/emailonacid-logo-small.png" align="center"/>
       </mj-column>
       <mj-column vertical-align="middle" width="400px" padding="0">
         <mj-navbar base-url="https://www.emailonacid.com" hamburger="hamburger" ico-color="#333333" align="center">
@@ -26,7 +26,7 @@
         </mj-navbar>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 0 0 0">
+    <mj-section padding="10px 0px 0px 0px" background-color="#ffffff">
       <mj-column>
         <mj-divider border-color="#a2dc3a" width="100%" padding="0px"/>
       </mj-column>
