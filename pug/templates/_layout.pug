@@ -9,12 +9,15 @@ mjml
             <meta name="format-detection" content="date=no"/>
             <meta name="format-detection" content="address=no"/>
             <meta name="format-detection" content="email=no"/>
-        mj-font(name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" )/
+        mj-font(name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins")/
         mj-breakpoint(width='480px')/
     //- Body
     mj-body      
         //- Top Nav
         block top Nav
             include ../includes/_topnav
+        //- Hero CTA
+        block cta
+            include ../includes/_cta
         //- content
         block content

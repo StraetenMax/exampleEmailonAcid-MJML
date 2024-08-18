@@ -26,5 +26,18 @@
         </mj-navbar>
       </mj-column>
     </mj-section>
+    <mj-section padding="10px 0 0 0">
+      <mj-column>
+        <mj-divider border-color="#a2dc3a" width="100%" padding="0px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="40px 30px" background-repeat="no-repeat" background-color="#333333" background-url="https://placekitten.com/600/400">
+      <mj-column>
+        <mj-text font-size="30px" color="#ffffff" align="center" font-family="Poppins, sans-serif">Exciting Headline!</mj-text>
+        <mj-text font-size="16px" color="#ffffff" align="center" line-height="100%" font-family="Poppins, sans-serif"> Supporting copy that will entice your</mj-text>
+        <mj-text font-size="16px" color="#ffffff" align="center" line-height="100%" font-family="Poppins, sans-serif"> subscribers to click the CTA below.</mj-text>
+        <mj-button padding-left="0" padding-right="0" font-family="Poppins, sans-serif" border-radius="0" font-size="20px" background-color="#a2dc3a" color="#333333" font-weight="bold" text-transform="uppercase">click here</mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
