@@ -9,9 +9,9 @@
       <meta name="format-detection" content="date=no"/>
       <meta name="format-detection" content="address=no"/>
       <meta name="format-detection" content="email=no"/>
-      
     </mj-raw>
-    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins"/>
+    <mj-breakpoint width="480px"/>
   </mj-head>
   <mj-body>     
     <mj-section padding="0px">
@@ -22,7 +22,7 @@
         <mj-navbar base-url="https://www.emailonacid.com" hamburger="hamburger" ico-color="#333333" align="center">
           <mj-navbar-link padding="8px 10px 0 10px" text-transform="capitalize" font-size="12px" font-weight="500" color="#333333" font-family="Poppins, sans-serif" href="/email-testing">Email Testing</mj-navbar-link>
           <mj-navbar-link padding="8px 10px 0 10px" text-transform="capitalize" font-size="12px" font-weight="500" color="#333333" font-family="Poppins, sans-serif" href="/email-deliverability">Email Deliverability</mj-navbar-link>
-          <mj-navbar-link padding="8px 10px 0 10px" text-transform="capitalize" font-size="12px" font-weight="500" color="#333333" font-family="Poppins, sans-serif;" href="/free-trial">Free Trial</mj-navbar-link>
+          <mj-navbar-link padding="8px 10px 0 10px" text-transform="capitalize" font-size="12px" font-weight="500" color="#333333" font-family="Poppins, sans-serif" href="/free-trial">Free Trial</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
